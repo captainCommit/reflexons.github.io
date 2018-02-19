@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://reflexons.cucse.org/sitemap.xml
+Sitemap: http://reflexons.github.io/sitemap.xml
