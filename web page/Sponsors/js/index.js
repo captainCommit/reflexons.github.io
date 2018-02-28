@@ -40,12 +40,12 @@
     },
 
     initOptions: function () {
-      var gui = new dat.GUI(),
+      var gui = new dat.GUI()/*,
         current = gui.addFolder('Current'),
-        controls = gui.addFolder('Controls');
+        controls = gui.addFolder('Controls')*/;
       this.width = document.documentElement.offsetWidth;
-      this.height = document.documentElement.offsetHeight;      
-      
+      this.height = document.documentElement.offsetHeight;
+
       this.textSize = Math.floor(this.width / 7);
       // sets text size based on window size
       if (this.textSize > this.height) {
@@ -74,9 +74,9 @@
       this.scanlineRange = 40;
       this.scanlineShift = 15;
 
-      current.add(this, 'channel', 0, 2).listen();
+      /*current.add(this, 'channel', 0, 2).listen();
       current.add(this, 'phase', 0, 1).listen();
-      current.add(this, 'amplitude', 0, 5).listen();
+      current.add(this, 'amplitude', 0, 5).listen();*/
       /* comment out below to hide ability to change text string
       var text = controls.add(this, 'text');
       text.onChange((function (){
@@ -84,15 +84,16 @@
       }).bind(this));
        comment out above to hide ability to change text string
 	   */
-      controls.add(this, 'fps', 1, 60);
+      /*controls.add(this, 'fps', 1, 60);
       controls.add(this, 'phaseStep', 0, 1);
       controls.add(this, 'alphaMin', 0, 1);
       controls.add(this, 'amplitudeBase', 0, 5);
       controls.add(this, 'amplitudeRange', 0, 5);
       controls.add(this, 'glitchAmplitude', 0, 100);
       controls.add(this, 'glitchThreshold', 0, 1);
-      controls.open();
-      gui.close(); // start the control panel cloased
+      controls.open();*/
+      //gui.close(); // start the control panel cloased
+	  dat.GUI.toggleHide();
     },
 
     tick: function () {

@@ -32,6 +32,7 @@ body {
 }
 .display-2 {
   font-family: 'Acme', sans-serif;
+
   font-size: 2.5rem;
 }
 .display-2 > .mbr-iconfont {
@@ -73,6 +74,7 @@ body {
     font-size: 2rem;
     font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
     line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
+
   }
   .display-4 {
     font-size: 0.96rem;
@@ -8370,6 +8372,7 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+
   .cid-qJjnF2d7ru .number-wrap {
     min-width: auto;
   }
