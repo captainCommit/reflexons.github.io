@@ -86,7 +86,7 @@ var TextScramble = function () {
 // Example
 // ——————————————————————————————————————————————————
 
-var phrases = ['REFLEXONS 2K18','ANNUAL TECHFEST OF CUCSE','DEPARTMENT OF COMPUTER SCIENCE AND ENGENEERING','UNIVERSITY OF CALCUTTA'];
+var phrases = ['REFLEXONS 2K18','ANNUAL TECHFEST OF CUCSE','ANNUAL REUNION OF CUCSE','DEPARTMENT OF COMPUTER SCIENCE AND ENGENEERING','UNIVERSITY OF CALCUTTA'];
 var el = document.querySelector('.main-title');
 var fx = new TextScramble(el);
 
