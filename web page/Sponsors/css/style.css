@@ -1,0 +1,22 @@
+body {
+  background : black;
+  overflow: hidden; 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#wrapper {
+  width: 40%;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 40%;
+  /*overflow: hidden;*/
+  text-align: center;
+}
+canvas {
+  box-sizing: border-box;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  text-align: center;
+  max-width: 75%;
+}
